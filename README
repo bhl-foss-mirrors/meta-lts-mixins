@@ -5,18 +5,10 @@ and officially Kirkstone supports only that. This thin special-purpose mixin
 layer is meant to address this issue by backporting Go recipes from the master
 branch of openembedded-core.
 
-You can see what Go versions are provided by listing recipes-devtools/ content.
-
-Including the layer automatically picks up the latest Go version; different versions
-need to be set explicitly by adding the following line to your distro config 
-or local.conf:
-
-GOVERSION = "1.22%"
-
 The patches can be backport from openembedded-core with:
 
  git -C ../openembedded-core format-patch --stdout -1 origin/master meta/recipes-devtools/go | \
- git am --signoff -p4 --directory=recipes-devtools/go-1.22
+ git am --signoff -p4 --directory=recipes-devtools/go
 
 Maintainers:
 Jose Quaresma <jose.quaresma@foundries.io>
