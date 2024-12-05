@@ -75,6 +75,7 @@ class RustSelfTestSystemEmulated(OESelftestTestCase, OEPTestResultTestCase):
                             'src/tools/suggest-tests',
                             'tests/assembly/asm/aarch64-outline-atomics.rs',
                             'tests/codegen/issues/issue-122805.rs',
+                            'tests/codegen/i128-x86-align.rs',
                             'tests/codegen/thread-local.rs',
                             'tests/mir-opt/',
                             'tests/run-make',
