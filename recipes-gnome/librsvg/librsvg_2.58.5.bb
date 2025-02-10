@@ -23,7 +23,7 @@ SRC_URI += " \
            file://disable-rsvg-loader-test.patch \
            "
 
-SRC_URI[archive.sha256sum] = "18e9d70c08cf25f50d610d6d5af571561d67cf4179f962e04266475df6e2e224"
+SRC_URI[archive.sha256sum] = "224233a0e347d38c415f15a49f0e0885313e3ecc18f3192055f9304dd2f3a27a"
 
 UPSTREAM_CHECK_REGEX = "librsvg-(?P<pver>\d+\.\d+\.(?!9\d+)\d+)"
 

@@ -24,7 +24,7 @@ SRC_URI += " \
     crate://crates.io/block/0.1.6 \
     crate://crates.io/bstr/1.9.0 \
     crate://crates.io/bumpalo/3.14.0 \
-    crate://crates.io/bytemuck/1.14.2 \
+    crate://crates.io/bytemuck/1.16.3 \
     crate://crates.io/byteorder/1.5.0 \
     crate://crates.io/cairo-rs/0.19.1 \
     crate://crates.io/cairo-sys-rs/0.19.1 \
@@ -43,7 +43,6 @@ SRC_URI += " \
     crate://crates.io/clap_lex/0.6.0 \
     crate://crates.io/color_quant/1.1.0 \
     crate://crates.io/colorchoice/1.0.0 \
-    crate://crates.io/const-cstr/0.3.0 \
     crate://crates.io/core-foundation-sys/0.8.6 \
     crate://crates.io/crc32fast/1.3.2 \
     crate://crates.io/criterion/0.5.1 \
@@ -281,7 +280,7 @@ SRC_URI += " \
     crate://crates.io/windows_x86_64_msvc/0.52.0 \
     crate://crates.io/winnow/0.5.39 \
     crate://crates.io/xml5ever/0.17.0 \
-    crate://crates.io/yeslogic-fontconfig-sys/4.0.1 \
+    crate://crates.io/yeslogic-fontconfig-sys/5.0.0 \
     crate://crates.io/zune-inflate/0.2.54 \
 "
 
@@ -307,7 +306,7 @@ SRC_URI[bitflags-2.4.2.sha256sum] = "ed570934406eb16438a4e976b1b4500774099c13b8c
 SRC_URI[block-0.1.6.sha256sum] = "0d8c1fef690941d3e7788d328517591fecc684c084084702d6ff1641e993699a"
 SRC_URI[bstr-1.9.0.sha256sum] = "c48f0051a4b4c5e0b6d365cd04af53aeaa209e3cc15ec2cdb69e73cc87fbd0dc"
 SRC_URI[bumpalo-3.14.0.sha256sum] = "7f30e7476521f6f8af1a1c4c0b8cc94f0bee37d91763d0ca2665f299b6cd8aec"
-SRC_URI[bytemuck-1.14.2.sha256sum] = "ea31d69bda4949c1c1562c1e6f042a1caefac98cdc8a298260a2ff41c1e2d42b"
+SRC_URI[bytemuck-1.16.3.sha256sum] = "102087e286b4677862ea56cf8fc58bb2cdfa8725c40ffb80fe3a008eb7f2fc83"
 SRC_URI[byteorder-1.5.0.sha256sum] = "1fd0f2584146f6f2ef48085050886acf353beff7305ebd1ae69500e27c67f64b"
 SRC_URI[cairo-rs-0.19.1.sha256sum] = "bc1c415b7088381c53c575420899c34c9e6312df5ac5defd05614210e9fd6e1b"
 SRC_URI[cairo-sys-rs-0.19.1.sha256sum] = "75b6a5fefce2eadb8333e3c604ac964ba6573ec4f28bdd17f67032c4a2831831"
@@ -326,7 +325,6 @@ SRC_URI[clap_derive-4.4.7.sha256sum] = "cf9804afaaf59a91e75b022a30fb7229a7901f60
 SRC_URI[clap_lex-0.6.0.sha256sum] = "702fc72eb24e5a1e48ce58027a675bc24edd52096d5397d4aea7c6dd9eca0bd1"
 SRC_URI[color_quant-1.1.0.sha256sum] = "3d7b894f5411737b7867f4827955924d7c254fc9f4d91a6aad6b097804b1018b"
 SRC_URI[colorchoice-1.0.0.sha256sum] = "acbf1af155f9b9ef647e42cdc158db4b64a1b61f743629225fde6f3e0be2a7c7"
-SRC_URI[const-cstr-0.3.0.sha256sum] = "ed3d0b5ff30645a68f35ece8cea4556ca14ef8a1651455f789a099a0513532a6"
 SRC_URI[core-foundation-sys-0.8.6.sha256sum] = "06ea2b9bc92be3c2baa9334a323ebca2d6f074ff852cd1d7b11064035cd3868f"
 SRC_URI[crc32fast-1.3.2.sha256sum] = "b540bd8bc810d3885c6ea91e2018302f68baba2129ab3e88f32389ee9370880d"
 SRC_URI[criterion-0.5.1.sha256sum] = "f2b12d017a929603d80db1831cd3a24082f8137ce19c69e6447f54f5fc8d692f"
@@ -564,5 +562,5 @@ SRC_URI[windows_x86_64_msvc-0.48.5.sha256sum] = "ed94fce61571a4006852b7389a063ab
 SRC_URI[windows_x86_64_msvc-0.52.0.sha256sum] = "dff9641d1cd4be8d1a070daf9e3773c5f67e78b4d9d42263020c057706765c04"
 SRC_URI[winnow-0.5.39.sha256sum] = "5389a154b01683d28c77f8f68f49dea75f0a4da32557a58f68ee51ebba472d29"
 SRC_URI[xml5ever-0.17.0.sha256sum] = "4034e1d05af98b51ad7214527730626f019682d797ba38b51689212118d8e650"
-SRC_URI[yeslogic-fontconfig-sys-4.0.1.sha256sum] = "ec657fd32bbcbeaef5c7bc8e10b3db95b143fab8db0a50079773dbf936fd4f73"
+SRC_URI[yeslogic-fontconfig-sys-5.0.0.sha256sum] = "ffb6b23999a8b1a997bf47c7bb4d19ad4029c3327bb3386ebe0a5ff584b33c7a"
 SRC_URI[zune-inflate-0.2.54.sha256sum] = "73ab332fe2f6680068f3582b16a24f90ad7096d5d39b974d1c0aff0125116f02"

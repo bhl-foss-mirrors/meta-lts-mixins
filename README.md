@@ -26,6 +26,10 @@ Notes
   there is not a straightforward way to update the existing one via
   bbappend.  Backporting a working recipe should be easier to maintain
   than developing an update of the older recipe in kirkstone.
+  Due to librsvg 2.59.x requiring meson 1.2.0, the recipe has been
+  updated to the latest release of the 2.58.x branch (2.58.5), and that
+  will likely be kept until there are issues building it with newer
+  versions of Rust.
 - A newer cairo recipe (1.18.0 as of August 2024) has been backported
   to enable building librsvg 2.57.1 and newer.  It is believed this has
   minimal impact on other cairo users.
